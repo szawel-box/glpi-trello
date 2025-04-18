@@ -1,22 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin>
+<root>
     <name>Trello Integration</name>
-    <version>1.0.0</version>
-    <min_glpi>10.0.0</min_glpi>
-    <max_glpi>10.0.99</max_glpi>
-    <author>GLPI Plugin Developer</author>
-    <homepage>https://github.com/yourusername/glpi-trello</homepage>
-    <license>GPLv2+</license>
-    <short_description>Integracja GLPI z Trello - tworzenie i zarządzanie kartami Trello bezpośrednio z GLPI</short_description>
+    <key>trello</key>
+    <state>stable</state>
+    <logo>https://raw.githubusercontent.com/szawel-box/glpi-trello/main/pics/logo.svg</logo>
+    <description>
+        <short>
+            <en>Integration between GLPI and Trello - create and manage Trello cards directly from GLPI</en>
+            <pl>Integracja GLPI z Trello - tworzenie i zarządzanie kartami Trello bezpośrednio z GLPI</pl>
+        </short>
+        <long>
+            <en>This plugin allows you to create Trello cards directly from GLPI tickets. Features include:
+- Create Trello cards from GLPI tickets
+- Configure Trello API connection
+- Select target board and list in Trello
+- Full integration with GLPI interface
+- Multi-language support</en>
+            <pl>Plugin umożliwiający integrację GLPI z Trello. Główne funkcje:
+- Tworzenie kart Trello bezpośrednio z zgłoszeń GLPI
+- Konfiguracja połączenia z API Trello
+- Wybór tablicy i listy docelowej w Trello
+- Pełna integracja z interfejsem GLPI
+- Wsparcie dla wielu języków</pl>
+        </long>
+    </description>
+    <homepage>https://github.com/szawel-box/glpi-trello</homepage>
+    <download>https://github.com/szawel-box/glpi-trello/releases/download/v1.0.0/glpi-trello-1.0.0.zip</download>
+    <issues>https://github.com/szawel-box/glpi-trello/issues</issues>
+    <readme>https://github.com/szawel-box/glpi-trello/blob/main/README.md</readme>
+    <authors>
+        <author>Paweł Adamczuk</author>
+    </authors>
+    <versions>
+        <version>
+            <num>1.0.0</num>
+            <compatibility>10.0.0</compatibility>
+            <download_url>https://github.com/szawel-box/glpi-trello/releases/download/v1.0.0/glpi-trello-1.0.0.zip</download_url>
+        </version>
+    </versions>
+    <langs>
+        <lang>en_GB</lang>
+        <lang>pl_PL</lang>
+    </langs>
+    <license>GPL v2+</license>
     <tags>
-        <tag>Integration</tag>
-        <tag>Task Management</tag>
-        <tag>Trello</tag>
+        <en>
+            <tag>Integration</tag>
+            <tag>Task Management</tag>
+            <tag>Trello</tag>
+        </en>
+        <pl>
+            <tag>Integracja</tag>
+            <tag>Zarządzanie zadaniami</tag>
+            <tag>Trello</tag>
+        </pl>
     </tags>
     <screenshots>
-        <screenshot>pics/config.png</screenshot>
-        <screenshot>pics/ticket-button.png</screenshot>
-        <screenshot>pics/send-form.png</screenshot>
-        <screenshot>pics/trello-card.png</screenshot>
+        <screenshot>https://raw.githubusercontent.com/szawel-box/glpi-trello/main/pics/config.png</screenshot>
+        <screenshot>https://raw.githubusercontent.com/szawel-box/glpi-trello/main/pics/ticket-button.png</screenshot>
+        <screenshot>https://raw.githubusercontent.com/szawel-box/glpi-trello/main/pics/send-form.png</screenshot>
+        <screenshot>https://raw.githubusercontent.com/szawel-box/glpi-trello/main/pics/trello-card.png</screenshot>
     </screenshots>
-</plugin> 
+</root> 
