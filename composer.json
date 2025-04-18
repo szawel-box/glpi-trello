@@ -1,0 +1,19 @@
+{
+    "name": "glpi-plugins/trello",
+    "description": "GLPI - Trello Integration",
+    "version": "1.0.0",
+    "license": "GPL-3.0+",
+    "homepage": "https://my-it.pl",
+    "authors": [
+        {
+            "name": "My-it.pl - Paweł Adamczuk",
+            "email": "your.email@example.com",
+            "homepage": "https://my-it.pl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "type": "glpi-plugin"
+} 

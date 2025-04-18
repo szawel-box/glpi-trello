@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>Trello Integration</name>
+    <version>1.0.0</version>
+    <min_glpi>10.0.0</min_glpi>
+    <max_glpi>10.0.99</max_glpi>
+    <author>GLPI Plugin Developer</author>
+    <homepage>https://github.com/yourusername/glpi-trello</homepage>
+    <license>GPLv2+</license>
+    <short_description>Integracja GLPI z Trello - tworzenie i zarządzanie kartami Trello bezpośrednio z GLPI</short_description>
+    <tags>
+        <tag>Integration</tag>
+        <tag>Task Management</tag>
+        <tag>Trello</tag>
+    </tags>
+    <screenshots>
+        <screenshot>pics/config.png</screenshot>
+        <screenshot>pics/ticket-button.png</screenshot>
+        <screenshot>pics/send-form.png</screenshot>
+        <screenshot>pics/trello-card.png</screenshot>
+    </screenshots>
+</plugin> 

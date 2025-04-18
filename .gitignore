@@ -1,0 +1,20 @@
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Pliki IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Pliki tymczasowe
+*.log
+*.cache
+*.tmp
+
+# Pliki Composer
+/vendor/
+composer.lock
+
+# Pliki kompilowane
+*.mo 
